@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -0.06em;
+}
+
+#container {
+    max-width: 1366px;
+    min-width: 750px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+body {
+    background: #f6b343;
+}
+
+#topo {
+    background-color: #1f1f1f;
+    max-height: 115px;
+}
+
+.logo {
+    background: url(imagens/LOGO\ TEXTO\ BRANCO.png) no-repeat left center;
+    text-indent: -3000px;
+    padding-top: 76px;
+    margin-left: 10%;
+}
+
+ul {
+    float: left;
+    list-style: none;
+    margin-left: 60%;
+    margin-top: -70px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a{
+    margin: 0 2px;
+    padding: 0 5px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: #5a2d88;
+    font-weight: bold;
+    border: #5a2d88 1px solid;
+}
+
+
+body.home a#home,
+body.contato a#contato,
+body.terapias a#terapias,
+body.sobre a#sobre {
+    background: white;
+    color: #5a2d88;
+    font-weight: bold;
+}
+
+
+
+#rodape {
+    text-align: center;
+    color: white;
+    background: #1f1f1f;
+}
+
+#rodape span{
+    font-size: 0.7em;
+}
+
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFf;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 1px 1px 5px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
