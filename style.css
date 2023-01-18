@@ -2,3 +2,39 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background: #05e6f2;
+}
+
+#topo {
+    background-color: black;
+    }
+
+.logo {
+    text-indent: -3000px;
+    background: url(imgs/YM-LOGO.png) center no-repeat;
+    height: 167px;
+    padding: 15px;
+}
+
+ul {
+
+}
+
+li {
+    
+    background-color: black;
+    float: left;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
