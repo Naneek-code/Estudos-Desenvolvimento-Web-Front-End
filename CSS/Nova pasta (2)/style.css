@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: white url(img/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0px auto;
+}
+
+#topo {
+    background: url(img/detalhe-topo.png) no-repeat top right;
+    height: 155px;
+    padding-top: 25px;
+}
+
+.logo {
+    background: url(img/logo.png) no-repeat;
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+}
+
+ul {
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+
+}
+
+#topo a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    color: white;
+    text-decoration: none;
+    background: url(img/divisor.png) no-repeat left;
+}
+
+#topo a.primeiro{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    color: white;
+    text-decoration: none;
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+
+}
+
+body.home #nav a#home,
+body.brasil #nav a#brasil,
+body.internacional #nav a#internacional,
+body.economia #nav a#economia,
+body.saude #nav a#saude,
+body.ciencia #nav a#ciencia,
+body.fotos #nav a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+#conteudo {
+    margin-top: 60px;
+    background: white;
+}
+
+#primario {
+    margin: 0 0 20px 195px;
+    float: left;
+    width: 270px;
+}
+
+#secundario {
+    margin: 0 0 20px 15px;
+    float: left;
+    width: 270px;
+}
+
+#lateral {
+    margin: 0 0 20px -750px;
+    width: 180px;
+    float: left;
+}
+
+
+.caixa {
+    background: url(img/fundo-caixa.png);
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    padding-left: 20px;
+    color: #a1a1a1;
+    background: url(img/marcador.png) no-repeat center left;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: 125px;
+    padding: 5px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    margin-top: 2px;
+    width: 80px;
+    padding: 5px;
+    color: white;
+    background-color: #b10333;
+    font-size: 0.9em;
+    border: 2px solid #870529;
+}
+
+img {
+    border: 2px solid #d2d2d2
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background: #b10333;
+    color: black;
+}
+
+h3.destaque {
+    color: white;
+}
