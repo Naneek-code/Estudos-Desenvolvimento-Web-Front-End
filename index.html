@@ -1,59 +1,138 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Yuri Portfólio e Estudos</title>
+    <title>Yuri Dev Front-End</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Style.css -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="topo">
+
+    <header id="topo" class="sticky-top">
         <div class="container">
-            <h1 class="logo">Yuri Montesi Front-End Dev</h1>
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="imgs/LOGO-YM.png" height="70px"
+                        alt="Yuri Montesi Front-End Dev"></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Trabalhos</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Esta página!</a>
+                                <a class="dropdown-item" href="CSS/BOOTSTRAP/MontesiLuz/index.html">MontesiLuz</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Estudos</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item">JavaScript ↴</a>
+                                <a class="dropdown-item" href="PROGRAMAÇÃO/JAVASCRIPT/Basico/Questão-1.html">Exercício
+                                    de fixação</a>
+                                <a class="dropdown-item" href="PROGRAMAÇÃO/JAVASCRIPT/Basico/Questão-2.html">Exercício
+                                    de fixação Pt.2</a>
+                                <div class="dropdown-divider"> </div>
+                                <a class="dropdown-item">CSS & HTML ↴</a>
+                                <a class="dropdown-item" href="css/BOOTSTRAP/Finas/index.html">Finans</a>
+                                <a class="dropdown-item" href="css/TecBlog/index.html">TecBlog</a>
+                                <a class="dropdown-item" href="css/Noticias da Cidade/index.html">Noticias Cidade</a>
+                                <a class="dropdown-item" href="css/Hotel/index.html">Hotel Chale</a>
+                                <a class="dropdown-item" href="css/Anna Bella Oficial/index.html">Anna Bella Oficial</a>
+                                <a class="dropdown-item" href="HTML5/index.html">Unes Universidade</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Sobre <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link disabled" href="#">Contato<span class="sr-only"></span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
         </div>
-        <div style="clear: both;"></div>
-    </div>
+    </header>
 
-    </div>
-
-    <div id="nav">
-        <div class="container">
-            <div class="menu">
-                <ul>
-                    <li class="primeiro"><a href="#">SITES Feitos com HTML & CSS3</a>
-                        <ul>
-                            <li><a href="CSS/Noticias da Cidade/index.html">EXERCÍCIO Noticias da Cidade</a></li>
-                            <li><a href="CSS/TecBlog/index.html">EXERCÍCIO TecBlog</a></li>
-                            <li><a href="CSS/Layout ajustaveis/index.html">EXERCÍCIO Layout ajustáveis</a></li>
-                            <li><a href="CSS/Anna Bella Oficial/index.html">EXERCÍCIO Anna Bella CSS3</a></li>
-                            <li><a href="HTML5/index.html">EXERCÍCIO HTML PURO</a></li>
-                        </ul>
-                    <li><a href="#">Linguagem de programação</a>
-                        <ul>
-                            <li><a href="">JavaScript</a></li>
-                            <li><a href="">Phyton</a></li>
-                            <li><a href="">C+</a></li>
-                            <li><a href="">C++</a></li>
-                            <li><a href="">C#</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Design GRÁFICO</a>
-                        <ul>
-                            <li><a href="">2023</a></li>
-                            <li><a href="">2022</a></li>
-                            <li><a href="">2021</a></li>
-                            <li><a href="">2020</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
+    <section>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-3">Olá visitante.</h1>
+                <p class="lead">Bem-vindo ao meu espaço, é aqui onde eu empacoto dos os meus conteúdos, desde estudos
+                    até trabalhos!</p>
+                <hr class="my-2">
+                <p>Sinta-se a vontade para explorar meu universo.</p>
             </div>
         </div>
-        <div style="clear: both;"></div>
-    </div>
+    </section>
 
+    <section id="conteudo"
+        style="background: url(imgs/robo-bg.png); height: 600px; background-size: cover; background-position: right;">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 mt-5">
+                    <h1 class="display-1 text-light ">OPS!</h1>
+                    <p class="lead shadow-sm p-3 mb-5 bg-white rounded">No momento ainda não tenho nada exibir aqui, navegue pelos menus para interagir com meus conteúdos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-2 mb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <a class="navbar-brand" href="#"><img src="imgs/LOGO-YM.png" height="45px"
+                        alt="Yuri Montesi Front-End Dev"></a>
+                </div>
+
+                <div class="col-md-4 mt-2">
+                    <a class="btn btn-outline-danger ml-2" href="https://www.facebook.com/lKeenanl/" role="button"><i class="fab fa-facebook"></i></a>
+                    <a class="btn btn-outline-danger ml-2" href="https://www.twitch.tv/clikejogos" role="button"><i class="fab fa-twitch"></i></a>
+                    <a class="btn btn-outline-danger ml-2" href="https://www.instagram.com/only_montesi/" role="button"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-danger ml-2" href="https://www.youtube.com/channel/UCbBwpadFPIUzZe8H3sRYitg" role="button"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
