@@ -8,9 +8,42 @@
     <title>Estudos Javascript</title>
 
     <script>
-        
+        var nome = prompt('Digite o nome:');
+        var altura = prompt('Digite a altura em cm:');
+        var peso = prompt('Digite a peso em kg:');
 
+        altura = parseFloat(altura);
+        altura = altura / 100;
+        peso = parseFloat(peso);
 
+        var IMC = peso / (altura * altura);
+        var classificacao = '';
+
+        if (IMC < 16) {
+            classificacao = 'Baixo peso muito grave';
+        } else if (IMC >= 16 && IMC <= 16.99) {
+            classificacao = 'Baixo peso grave';
+
+        } else if (IMC >= 17 && IMC <= 18.99) {
+            classificacao = 'Baixo peso';
+
+        } else if (IMC >= 18.50 && IMC <= 24.99) {
+            classificacao = 'Peso normal';
+
+        } else if (IMC >= 25 && IMC <= 29.99) {
+            classificacao = 'Sobrepeso';
+
+        } else if (IMC >= 30 && IMC <= 34.99) {
+            classificacao = 'Obesidade grau I';
+
+        } else if (IMC >= 35 && IMC <= 39.99) {
+            classificacao = 'Obesidade grau II';
+
+        } else {
+            classificacao = 'Obesidade grau III';
+        }
+
+        document.write(nome + ' possui índice de massa corporal igual a ' + IMC + ', sendo classificado como: ' + classificacao);
     </script>
 
 </head>
