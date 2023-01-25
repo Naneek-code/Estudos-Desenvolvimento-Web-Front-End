@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos Javascript</title>
+
+    <script>
+
+        function elementoSelecionado() {
+            document.getElementById('campoTexto').style.backgroundColor = "yellow";
+        }
+
+        function elementoOut() {
+            var valorCampo = document.getElementById('campoTexto').value
+            if (valorCampo.length < 3) {
+                document.getElementById('campoTexto').style.background = "red"              
+            } else {
+                document.getElementById('campoTexto').style.background = "green"
+            }
+        }
+
+    </script>
+
+</head>
+
+
+<body>
+
+    <div class="form-group">
+        <label for="campoTexto"></label>
+        <input onfocusin="elementoSelecionado()" onfocusout="elementoOut()" type="text" class="form-control"
+            id="campoTexto" placeholder="Insira o Texto aqui">
+        <small class="form-text text-muted">O campo deve ter no mínimo 3 caracteres.</small>
+    </div>
+
+</body>
+
+</html>

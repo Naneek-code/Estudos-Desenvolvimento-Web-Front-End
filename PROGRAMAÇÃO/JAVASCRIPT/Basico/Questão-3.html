@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos Javascript</title>
+
+    <script>
+
+        var x = prompt('Digite o primeiro numero: ')
+        var operador = prompt('Digite o operador: (soma ou subtração)')
+        var y = prompt('Digite o segundo numero: ')
+
+
+        document.write('O resultado é ' + calculo(x, y, operador)
+            + '.')
+
+        function calculo(x, y, operador) {
+            x = parseFloat(x)
+            y = parseFloat(y)
+            if (operador == 'soma' || operador == 'SOMA' || operador == 'Soma') {
+                resultado = x + y
+            } else {
+                resultado = x - y
+            }
+
+            return resultado
+        }
+
+    </script>
+
+</head>
+
+<body>
+</body>
+
+</html>

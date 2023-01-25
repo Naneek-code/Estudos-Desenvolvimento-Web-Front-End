@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos Javascript</title>
+
+    <script>
+
+        function exibirArtigo(id, callbacksucesso, callbackerro) {
+            if (true) {
+                callbacksucesso('Funcoes de callback em JS', 'Funcoes de callback sao muito utilizadas')
+            } else {
+                callbackerro('Erro ao exibir artigo.')
+            }
+        }
+
+        var callbacksucesso = function (titulo, descricao){
+            document.write('<h1>' + titulo + '</h1>')
+            document.write('<hr />')
+            document.write('<p>' + descricao + '</p>')
+        }
+
+        var callbackerro = function (erro) {
+            document.write('<p><b>ERRO:</b>' + erro + '</p>')
+        }
+
+        exibirArtigo(1, callbacksucesso, callbackerro)
+
+    </script>
+
+</head>
+
+<body>
+</body>
+
+</html>
